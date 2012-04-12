@@ -21,7 +21,7 @@ file = open('Test.txt','w')
 file.write(orignalPsource)
 file.close()
 file1 = open('Test.txt','r')
-for line in file.readlines():
+for line in file1.readlines():
     line = line.strip()
     txt = "<td align=left width=100px valign=bottom bgcolor=#e6eef1><font face=Arial size=2 color=#ic355d>"
     bool = txt in line
